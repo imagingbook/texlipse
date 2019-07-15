@@ -27,6 +27,16 @@
 	<name>Eclipse TeXlipse Main Plugin</name>
 	<packaging>eclipse-plugin</packaging>
 	<version>2.0.2-SNAPSHOT</version>
+	
+	<dependencies>
+	<!-- https://mvnrepository.com/artifact/net.sf.jazzy/jazzy-core -->
+	<!-- WILBUR: added -->
+	<dependency>
+    	<groupId>net.sf.jazzy</groupId>
+    	<artifactId>jazzy-core</artifactId>
+    	<version>0.5.2</version>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<plugins>
